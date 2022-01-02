@@ -57,7 +57,8 @@
                                 <div class="modal-block">
                                     <form class="form js-speaker-form">
                                         <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
-                                        <label for="name" class="label-title"> <span class="name-for-form">Имя</span> 
+                                        <label for="name" class="label-title"> 
+                                            <span class="name-for-form">Имя</span> 
 
                                             <div class="form-field"> 
                                                 <input type="text" name="name" id="name" />
@@ -86,10 +87,11 @@
                                             </div>
                                         </label>
                                                                            
-                                        <label for="comment" class="form-comment"> <span class="name-for-form">Комментарий</span> 
-                                            <div class="comment">
+                                        <label for="comment" class="form-comment"> 
+                                            <span class="name-for-form">Комментарий</span> 
+
                                         <textarea class="textarea" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
-                                            </div>
+                                         
                                         </label>
                                                                                                                        
                             
@@ -424,13 +426,14 @@
                     </a></li>
                 </ul>
             </div> 
-            <div class="form-footer-box">
-                <form class="form-footer">
-                <label for="user-email">
-                    Подпишитесь на рассылку
-                    <input type="email" name="email" placeholder="E-mail" id="user-email">
-                </label>
-                    <button type="submit" class="button-footer-form">
+            <div class="subscribe">
+                <p class="subscribe__title">Подпишитесь на рассылку</p>
+
+                <form class="subscribe__form-footer">
+                                    
+                    <input class="subscribe__input" type="email" name="email" placeholder="E-mail" id="user-email">
+                
+                    <button type="submit" class="subscribe__form-button">
                         Подписаться
                         <svg width = "24" height = "24" class="telegram">
                             <use href="./images/symbol.svg#icon-send"></use>
